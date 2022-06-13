@@ -1,0 +1,60 @@
+.h  {
+    padding: 12px 20px;
+    margin-top: 4px;
+}
+.text {
+    font-family: "Calibri";
+    padding: 10px;
+}
+.hd {
+    visibility: hidden;
+}
+.invis {
+    font-size: 0;
+}
+.tooltip {
+    position: relative;
+    display: inline-block;
+}
+.tooltip .tooltiptext {
+    visibility: hidden;
+    display: table;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    padding: 6px;
+    border-radius: 4px;
+
+    position: absolute;
+    z-index: 1;
+    top: 80%;
+    left:50%;
+    margin-left: -50%;
+}
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+}
+
+.upgradetier {
+    width: 420px;
+}
+
+.actionlog {
+    position: absolute;
+    text-align: right;
+    top: 10%;
+    right: 40px;
+    line-height: 1.4;
+}
+
+.bottomtext {
+    position: fixed;
+    bottom: 20px;
+    right: 40px;
+}
+
+body {
+    margin: 0%;
+    padding: 0%;
+}
